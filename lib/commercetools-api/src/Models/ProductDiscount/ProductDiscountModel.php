@@ -150,7 +150,7 @@ final class ProductDiscountModel extends JsonObjectModel implements ProductDisco
     }
 
     /**
-     * <p>Platform-generated unique identifier of the ProductDiscount</p>
+     * <p>The unique ID of the product discount</p>
      *
      * @return null|string
      */
@@ -288,7 +288,8 @@ final class ProductDiscountModel extends JsonObjectModel implements ProductDisco
     }
 
     /**
-     * <p>User-defined unique identifier of the ProductDiscount.</p>
+     * <p>User-specific unique identifier for a product discount.
+     * Must be unique across a project.</p>
      *
      * @return null|string
      */

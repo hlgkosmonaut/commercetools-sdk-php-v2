@@ -40,8 +40,6 @@ final class CartAddShoppingListActionBuilder implements Builder
     private $distributionChannel;
 
     /**
-     * <p><a href="/../api/types#resourceidentifier">ResourceIdentifier</a> to a <a href="ctp:api:type:ShoppingList">ShoppingList</a>.</p>
-     *
      * @return null|ShoppingListResourceIdentifier
      */
     public function getShoppingList()

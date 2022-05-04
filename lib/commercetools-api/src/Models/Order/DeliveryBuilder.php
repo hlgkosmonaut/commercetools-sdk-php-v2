@@ -56,8 +56,6 @@ final class DeliveryBuilder implements Builder
     private $custom;
 
     /**
-     * <p>Platform-generated unique identifier of the Delivery.</p>
-     *
      * @return null|string
      */
     public function getId()

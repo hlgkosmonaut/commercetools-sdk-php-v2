@@ -37,7 +37,7 @@ interface Category extends BaseResource
     public const FIELD_KEY = 'key';
 
     /**
-     * <p>Platform-generated unique identifier of the Category.</p>
+     * <p>The unique ID of the category.</p>
      *
      * @return null|string
      */
@@ -146,7 +146,7 @@ interface Category extends BaseResource
     public function getAssets();
 
     /**
-     * <p>User-defined unique identifier of the Category.</p>
+     * <p>User-specific unique identifier for the category.</p>
      *
      * @return null|string
      */

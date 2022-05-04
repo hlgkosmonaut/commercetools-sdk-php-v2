@@ -33,7 +33,7 @@ final class CustomObjectReferenceBuilder implements Builder
     private $obj;
 
     /**
-     * <p>Platform-generated unique identifier of the referenced <a href="ctp:api:type:CustomObject">CustomObject</a>.</p>
+     * <p>Unique ID of the referenced resource.</p>
      *
      * @return null|string
      */
@@ -43,8 +43,6 @@ final class CustomObjectReferenceBuilder implements Builder
     }
 
     /**
-     * <p>Contains the representation of the expanded CustomObject. Only present in responses to requests with <a href="/../api/general-concepts#reference-expansion">Reference Expansion</a> for CustomObjects.</p>
-     *
      * @return null|CustomObject
      */
     public function getObj()

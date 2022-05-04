@@ -349,7 +349,7 @@ final class OrderModel extends JsonObjectModel implements Order
     }
 
     /**
-     * <p>Platform-generated unique identifier of the Order.</p>
+     * <p>The unique ID of the order.</p>
      *
      * @return null|string
      */

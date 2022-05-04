@@ -42,8 +42,6 @@ final class ErrorByExtensionModel extends JsonObjectModel implements ErrorByExte
     }
 
     /**
-     * <p>Platform-generated unique identifier of the Extension.</p>
-     *
      * @return null|string
      */
     public function getId()
@@ -61,8 +59,6 @@ final class ErrorByExtensionModel extends JsonObjectModel implements ErrorByExte
     }
 
     /**
-     * <p>User-defined unique identifier of the Extension.</p>
-     *
      * @return null|string
      */
     public function getKey()

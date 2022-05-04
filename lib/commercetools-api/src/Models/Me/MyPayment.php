@@ -28,8 +28,6 @@ interface MyPayment extends JsonObject
     public const FIELD_CUSTOM = 'custom';
 
     /**
-     * <p>Platform-generated unique identifier of the MyPayment.</p>
-     *
      * @return null|string
      */
     public function getId();

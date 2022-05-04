@@ -84,8 +84,6 @@ final class OrderCustomerSetMessagePayloadModel extends JsonObjectModel implemen
     }
 
     /**
-     * <p><a href="/../api/types#reference">Reference</a> to a <a href="ctp:api:type:Customer">Customer</a>.</p>
-     *
      * @return null|CustomerReference
      */
     public function getCustomer()
@@ -104,7 +102,7 @@ final class OrderCustomerSetMessagePayloadModel extends JsonObjectModel implemen
     }
 
     /**
-     * <p><a href="/../api/types#reference">Reference</a> to a <a href="ctp:api:type:CustomerGroup">CustomerGroup</a>.</p>
+     * <p><a href="/types#reference">Reference</a> to a <a href="ctp:api:type:CustomerGroup">CustomerGroup</a>.</p>
      *
      * @return null|CustomerGroupReference
      */
@@ -124,8 +122,6 @@ final class OrderCustomerSetMessagePayloadModel extends JsonObjectModel implemen
     }
 
     /**
-     * <p><a href="/../api/types#reference">Reference</a> to a <a href="ctp:api:type:Customer">Customer</a>.</p>
-     *
      * @return null|CustomerReference
      */
     public function getOldCustomer()
@@ -144,7 +140,7 @@ final class OrderCustomerSetMessagePayloadModel extends JsonObjectModel implemen
     }
 
     /**
-     * <p><a href="/../api/types#reference">Reference</a> to a <a href="ctp:api:type:CustomerGroup">CustomerGroup</a>.</p>
+     * <p><a href="/types#reference">Reference</a> to a <a href="ctp:api:type:CustomerGroup">CustomerGroup</a>.</p>
      *
      * @return null|CustomerGroupReference
      */

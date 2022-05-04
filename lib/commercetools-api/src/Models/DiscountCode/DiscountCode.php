@@ -39,7 +39,7 @@ interface DiscountCode extends BaseResource
     public const FIELD_APPLICATION_VERSION = 'applicationVersion';
 
     /**
-     * <p>Platform-generated unique identifier of the DiscountCode.</p>
+     * <p>The unique ID of the discount code.</p>
      *
      * @return null|string
      */
@@ -85,8 +85,9 @@ interface DiscountCode extends BaseResource
     public function getDescription();
 
     /**
-     * <p>User-defined unique identifier of the DiscountCode.
-     * It is <a href="/../api/projects/carts#add-discountcode">added to a Cart</a> to enable the related CartDiscounts in that Cart.</p>
+     * <p>Unique identifier of this discount code.
+     * This value is added to the cart
+     * to enable the related cart discounts in the cart.</p>
      *
      * @return null|string
      */

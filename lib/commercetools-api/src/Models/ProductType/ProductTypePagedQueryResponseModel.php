@@ -63,8 +63,6 @@ final class ProductTypePagedQueryResponseModel extends JsonObjectModel implement
     }
 
     /**
-     * <p>Number of <a href="/../api/general-concepts#limit">results requested</a>.</p>
-     *
      * @return null|int
      */
     public function getLimit()

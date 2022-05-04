@@ -260,7 +260,7 @@ final class OrderBuilder implements Builder
     private $refusedGifts;
 
     /**
-     * <p>Platform-generated unique identifier of the Order.</p>
+     * <p>The unique ID of the order.</p>
      *
      * @return null|string
      */

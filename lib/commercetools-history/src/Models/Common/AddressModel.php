@@ -206,6 +206,8 @@ final class AddressModel extends JsonObjectModel implements Address
     }
 
     /**
+     * <p>Unique ID of the Address.</p>
+     *
      * @return null|string
      */
     public function getId()

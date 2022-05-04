@@ -41,8 +41,6 @@ final class CustomerChangePasswordBuilder implements Builder
     private $newPassword;
 
     /**
-     * <p>Platform-generated unique identifier of the Customer.</p>
-     *
      * @return null|string
      */
     public function getId()

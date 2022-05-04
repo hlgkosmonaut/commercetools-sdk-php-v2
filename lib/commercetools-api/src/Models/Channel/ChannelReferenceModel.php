@@ -51,6 +51,8 @@ final class ChannelReferenceModel extends JsonObjectModel implements ChannelRefe
     }
 
     /**
+     * <p>Type of referenced resource.</p>
+     *
      * @return null|string
      */
     public function getTypeId()
@@ -68,7 +70,7 @@ final class ChannelReferenceModel extends JsonObjectModel implements ChannelRefe
     }
 
     /**
-     * <p>Platform-generated unique identifier of the referenced <a href="ctp:api:type:Channel">Channel</a>.</p>
+     * <p>Unique ID of the referenced <a href="ctp:api:type:Channel">Channel</a>.</p>
      *
      * @return null|string
      */

@@ -88,8 +88,6 @@ final class ProductVariantBuilder implements Builder
     private $scopedPriceDiscounted;
 
     /**
-     * <p>Platform-generated sequential and unique identifier of the ProductVariant within the Product.</p>
-     *
      * @return null|int
      */
     public function getId()
@@ -106,9 +104,6 @@ final class ProductVariantBuilder implements Builder
     }
 
     /**
-     * <p>User-defined unique identifier of the ProductVariant.
-     * <em>ProductVariant keys are different from Product keys.</em></p>
-     *
      * @return null|string
      */
     public function getKey()

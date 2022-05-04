@@ -211,7 +211,7 @@ final class ProductDraftModel extends JsonObjectModel implements ProductDraft
     }
 
     /**
-     * <p>User-defined unique identifier for the Product.</p>
+     * <p>User-specific unique identifier for the product.</p>
      *
      * @return null|string
      */

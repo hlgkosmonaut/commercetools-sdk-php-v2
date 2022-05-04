@@ -31,7 +31,7 @@ interface ReviewDraft extends JsonObject
     public const FIELD_CUSTOM = 'custom';
 
     /**
-     * <p>User-defined unique identifier for the Review.</p>
+     * <p>User-specific unique identifier for the review.</p>
      *
      * @return null|string
      */

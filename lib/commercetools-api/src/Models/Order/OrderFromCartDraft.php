@@ -27,7 +27,7 @@ interface OrderFromCartDraft extends JsonObject
     public const FIELD_CUSTOM = 'custom';
 
     /**
-     * <p>Platform-generated unique identifier of the Cart from which you can create an Order.</p>
+     * <p>The unique id of the cart from which an order is created.</p>
      *
      * @return null|string
      */

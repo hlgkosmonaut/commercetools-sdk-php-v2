@@ -33,7 +33,7 @@ final class DiscountCodeResourceIdentifierBuilder implements Builder
     private $key;
 
     /**
-     * <p>Platform-generated unique identifier of the referenced <a href="ctp:api:type:DiscountCode">DiscountCode</a>. Either <code>id</code> or <code>key</code> is required.</p>
+     * <p>Platform-generated unique identifier of the referenced resource. Required if <code>key</code> is absent.</p>
      *
      * @return null|string
      */
@@ -43,7 +43,7 @@ final class DiscountCodeResourceIdentifierBuilder implements Builder
     }
 
     /**
-     * <p>User-defined unique identifier of the referenced <a href="ctp:api:type:DiscountCode">DiscountCode</a>. Either <code>id</code> or <code>key</code> is required.</p>
+     * <p>User-defined unique identifier of the referenced resource. Required if <code>id</code> is absent.</p>
      *
      * @return null|string
      */

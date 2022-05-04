@@ -54,7 +54,7 @@ interface ShoppingListDraft extends JsonObject
     public function getDescription();
 
     /**
-     * <p>User-defined unique identifier for the ShoppingList.</p>
+     * <p>User-specific unique identifier for the shopping list.</p>
      *
      * @return null|string
      */

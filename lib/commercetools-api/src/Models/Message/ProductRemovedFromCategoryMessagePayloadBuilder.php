@@ -33,8 +33,6 @@ final class ProductRemovedFromCategoryMessagePayloadBuilder implements Builder
     private $staged;
 
     /**
-     * <p><a href="/../api/types#reference">Reference</a> to a <a href="ctp:api:type:Category">Category</a>.</p>
-     *
      * @return null|CategoryReference
      */
     public function getCategory()

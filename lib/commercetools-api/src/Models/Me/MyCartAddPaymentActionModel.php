@@ -61,8 +61,6 @@ final class MyCartAddPaymentActionModel extends JsonObjectModel implements MyCar
     }
 
     /**
-     * <p><a href="/../api/types#resourceidentifier">ResourceIdentifier</a> to a <a href="ctp:api:type:Payment">Payment</a>.</p>
-     *
      * @return null|PaymentResourceIdentifier
      */
     public function getPayment()

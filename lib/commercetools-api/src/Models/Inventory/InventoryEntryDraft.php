@@ -30,7 +30,8 @@ interface InventoryEntryDraft extends JsonObject
     public function getSku();
 
     /**
-     * <p>User-defined unique identifier for the InventoryEntry.</p>
+     * <p>User-defined unique identifier for the InventoryEntry.
+     * Keys can only contain alphanumeric characters, underscores, and hyphens.</p>
      *
      * @return null|string
      */

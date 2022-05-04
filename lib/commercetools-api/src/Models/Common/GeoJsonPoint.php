@@ -16,6 +16,8 @@ interface GeoJsonPoint extends GeoJson
     public const FIELD_COORDINATES = 'coordinates';
 
     /**
+     * <p>Longitude and latitude of the <a href="https://datatracker.ietf.org/doc/html/rfc7946#section-3.1.2">Point</a>.</p>
+     *
      * @return null|array
      */
     public function getCoordinates();

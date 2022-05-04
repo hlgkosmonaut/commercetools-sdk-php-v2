@@ -41,7 +41,8 @@ final class ExtensionDraftBuilder implements Builder
     private $timeoutInMs;
 
     /**
-     * <p>User-defined unique identifier for the Extension.</p>
+     * <p>User-defined unique identifier for the Extension.
+     * Keys can only contain alphanumeric characters, underscores, and hyphens.</p>
      *
      * @return null|string
      */

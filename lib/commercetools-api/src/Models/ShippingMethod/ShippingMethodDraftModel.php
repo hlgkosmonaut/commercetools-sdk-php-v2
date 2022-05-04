@@ -104,8 +104,6 @@ final class ShippingMethodDraftModel extends JsonObjectModel implements Shipping
     }
 
     /**
-     * <p>User-defined unique identifier for the ShippingMethod.</p>
-     *
      * @return null|string
      */
     public function getKey()

@@ -61,8 +61,6 @@ final class OrderPaymentAddedMessagePayloadModel extends JsonObjectModel impleme
     }
 
     /**
-     * <p><a href="/../api/types#reference">Reference</a> to a <a href="ctp:api:type:Payment">Payment</a>.</p>
-     *
      * @return null|PaymentReference
      */
     public function getPayment()

@@ -63,8 +63,6 @@ final class StorePagedQueryResponseModel extends JsonObjectModel implements Stor
     }
 
     /**
-     * <p>Number of <a href="/../api/general-concepts#limit">results requested</a>.</p>
-     *
      * @return null|int
      */
     public function getLimit()

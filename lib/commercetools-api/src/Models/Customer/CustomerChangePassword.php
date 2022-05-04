@@ -19,8 +19,6 @@ interface CustomerChangePassword extends JsonObject
     public const FIELD_NEW_PASSWORD = 'newPassword';
 
     /**
-     * <p>Platform-generated unique identifier of the Customer.</p>
-     *
      * @return null|string
      */
     public function getId();

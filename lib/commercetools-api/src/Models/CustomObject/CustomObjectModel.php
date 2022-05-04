@@ -98,8 +98,6 @@ final class CustomObjectModel extends JsonObjectModel implements CustomObject
     }
 
     /**
-     * <p>Platform-generated unique identifier of the CustomObject.</p>
-     *
      * @return null|string
      */
     public function getId()
@@ -235,8 +233,6 @@ final class CustomObjectModel extends JsonObjectModel implements CustomObject
     }
 
     /**
-     * <p>User-defined unique identifier of the CustomObject.</p>
-     *
      * @return null|string
      */
     public function getKey()

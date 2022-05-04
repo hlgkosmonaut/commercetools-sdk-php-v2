@@ -51,6 +51,8 @@ final class OrderEditReferenceModel extends JsonObjectModel implements OrderEdit
     }
 
     /**
+     * <p>Type of referenced resource.</p>
+     *
      * @return null|string
      */
     public function getTypeId()
@@ -68,7 +70,7 @@ final class OrderEditReferenceModel extends JsonObjectModel implements OrderEdit
     }
 
     /**
-     * <p>Platform-generated unique identifier of the referenced <a href="ctp:api:type:OrderEdit">OrderEdit</a>.</p>
+     * <p>Unique ID of the referenced resource.</p>
      *
      * @return null|string
      */
@@ -87,8 +89,6 @@ final class OrderEditReferenceModel extends JsonObjectModel implements OrderEdit
     }
 
     /**
-     * <p>Contains the representation of the expanded OrderEdit. Only present in responses to requests with <a href="/../api/general-concepts#reference-expansion">Reference Expansion</a> for OrderEdits.</p>
-     *
      * @return null|OrderEdit
      */
     public function getObj()

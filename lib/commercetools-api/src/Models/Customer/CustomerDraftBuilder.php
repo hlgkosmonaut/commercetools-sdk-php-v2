@@ -392,7 +392,9 @@ final class CustomerDraftBuilder implements Builder
     }
 
     /**
-     * <p>User-defined unique identifier for the Customer.</p>
+     * <p>User-specific unique identifier for a customer.
+     * Must be unique across a project.
+     * The field can be reset using the Set Key UpdateAction</p>
      *
      * @return null|string
      */

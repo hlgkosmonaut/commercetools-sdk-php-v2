@@ -51,6 +51,8 @@ final class CustomerGroupReferenceModel extends JsonObjectModel implements Custo
     }
 
     /**
+     * <p>Type of referenced resource.</p>
+     *
      * @return null|string
      */
     public function getTypeId()
@@ -68,7 +70,7 @@ final class CustomerGroupReferenceModel extends JsonObjectModel implements Custo
     }
 
     /**
-     * <p>Platform-generated unique identifier of the referenced <a href="ctp:api:type:CustomerGroup">CustomerGroup</a>.</p>
+     * <p>Unique ID of the referenced <a href="ctp:api:type:CustomerGroup">CustomerGroup</a>.</p>
      *
      * @return null|string
      */

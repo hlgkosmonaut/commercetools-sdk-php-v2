@@ -146,6 +146,8 @@ final class AddressBuilder implements Builder
     private $externalId;
 
     /**
+     * <p>Unique ID of the Address.</p>
+     *
      * @return null|string
      */
     public function getId()

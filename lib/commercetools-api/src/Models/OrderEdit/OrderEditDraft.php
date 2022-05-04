@@ -24,7 +24,7 @@ interface OrderEditDraft extends JsonObject
     public const FIELD_DRY_RUN = 'dryRun';
 
     /**
-     * <p>User-defined unique identifier for the OrderEdit.</p>
+     * <p>Unique identifier for this edit.</p>
      *
      * @return null|string
      */

@@ -33,7 +33,7 @@ final class CategoryReferenceBuilder implements Builder
     private $obj;
 
     /**
-     * <p>Platform-generated unique identifier of the referenced <a href="ctp:api:type:Category">Category</a>.</p>
+     * <p>Unique ID of the referenced resource.</p>
      *
      * @return null|string
      */
@@ -43,8 +43,6 @@ final class CategoryReferenceBuilder implements Builder
     }
 
     /**
-     * <p>Contains the representation of the expanded Category. Only present in responses to requests with <a href="/../api/general-concepts#reference-expansion">Reference Expansion</a> for Categories.</p>
-     *
      * @return null|Category
      */
     public function getObj()

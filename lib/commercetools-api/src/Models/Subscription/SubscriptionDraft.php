@@ -30,8 +30,6 @@ interface SubscriptionDraft extends JsonObject
     public function getDestination();
 
     /**
-     * <p>User-defined unique identifier for the Subscription.</p>
-     *
      * @return null|string
      */
     public function getKey();

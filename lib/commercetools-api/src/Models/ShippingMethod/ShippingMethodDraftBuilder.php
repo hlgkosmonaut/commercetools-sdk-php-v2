@@ -77,8 +77,6 @@ final class ShippingMethodDraftBuilder implements Builder
     private $custom;
 
     /**
-     * <p>User-defined unique identifier for the ShippingMethod.</p>
-     *
      * @return null|string
      */
     public function getKey()

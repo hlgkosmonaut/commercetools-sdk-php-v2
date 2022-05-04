@@ -62,8 +62,6 @@ final class SubscriptionDraftBuilder implements Builder
     }
 
     /**
-     * <p>User-defined unique identifier for the Subscription.</p>
-     *
      * @return null|string
      */
     public function getKey()

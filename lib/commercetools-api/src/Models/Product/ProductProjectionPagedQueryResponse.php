@@ -20,8 +20,6 @@ interface ProductProjectionPagedQueryResponse extends JsonObject
     public const FIELD_RESULTS = 'results';
 
     /**
-     * <p>Number of <a href="/../api/general-concepts#limit">results requested</a>.</p>
-     *
      * @return null|int
      */
     public function getLimit();

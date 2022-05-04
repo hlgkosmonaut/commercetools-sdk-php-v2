@@ -105,7 +105,7 @@ final class ExtensionModel extends JsonObjectModel implements Extension
     }
 
     /**
-     * <p>Platform-generated unique identifier of the Extension.</p>
+     * <p>Unique ID of the Extension.</p>
      *
      * @return null|string
      */
@@ -229,7 +229,8 @@ final class ExtensionModel extends JsonObjectModel implements Extension
     }
 
     /**
-     * <p>User-defined unique identifier of the Extension.</p>
+     * <p>User-defined unique identifier for the Extension.
+     * Keys can only contain alphanumeric characters, underscores, and hyphens.</p>
      *
      * @return null|string
      */

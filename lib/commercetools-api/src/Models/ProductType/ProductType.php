@@ -25,7 +25,7 @@ interface ProductType extends BaseResource
     public const FIELD_ATTRIBUTES = 'attributes';
 
     /**
-     * <p>Platform-generated unique identifier for the ProductType.</p>
+     * <p>The unique ID of the product type.</p>
      *
      * @return null|string
      */
@@ -63,7 +63,8 @@ interface ProductType extends BaseResource
     public function getCreatedBy();
 
     /**
-     * <p>User-defined unique identifier of the ProductType.</p>
+     * <p>User-specific unique identifier for the product type (max.
+     * 256 characters).</p>
      *
      * @return null|string
      */

@@ -153,7 +153,7 @@ final class ShippingMethodModel extends JsonObjectModel implements ShippingMetho
     }
 
     /**
-     * <p>Platform-generated unique identifier of the ShippingMethod.</p>
+     * <p>The unique ID of the shipping method.</p>
      *
      * @return null|string
      */
@@ -273,7 +273,7 @@ final class ShippingMethodModel extends JsonObjectModel implements ShippingMetho
     }
 
     /**
-     * <p>User-defined unique identifier of the ShippingMethod.</p>
+     * <p>User-specific unique identifier for the shipping method</p>
      *
      * @return null|string
      */

@@ -41,6 +41,8 @@ interface Address extends JsonObject
     public const FIELD_EXTERNAL_ID = 'externalId';
 
     /**
+     * <p>Unique ID of the Address.</p>
+     *
      * @return null|string
      */
     public function getId();

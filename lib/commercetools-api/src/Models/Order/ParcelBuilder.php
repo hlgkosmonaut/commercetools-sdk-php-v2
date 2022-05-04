@@ -54,8 +54,6 @@ final class ParcelBuilder implements Builder
     private $custom;
 
     /**
-     * <p>Platform-generated unique identifier of the Parcel.</p>
-     *
      * @return null|string
      */
     public function getId()

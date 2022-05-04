@@ -63,7 +63,7 @@ final class ImportOperationPagedResponseModel extends JsonObjectModel implements
     }
 
     /**
-     * <p>Number of <a href="/../api/general-concepts#limit">results requested</a>.</p>
+     * <p>The number of results requested in the query request.</p>
      *
      * @return null|int
      */

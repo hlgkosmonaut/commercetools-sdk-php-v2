@@ -58,14 +58,14 @@ interface Cart extends BaseResource
     public const FIELD_TOTAL_LINE_ITEM_QUANTITY = 'totalLineItemQuantity';
 
     /**
-     * <p>Platform-generated unique identifier of the Cart.</p>
+     * <p>The unique ID of the cart.</p>
      *
      * @return null|string
      */
     public function getId();
 
     /**
-     * <p>User-defined unique identifier of the Cart.</p>
+     * <p>User-specific unique identifier of the cart.</p>
      *
      * @return null|string
      */

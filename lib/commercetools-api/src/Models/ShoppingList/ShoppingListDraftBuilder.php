@@ -120,7 +120,7 @@ final class ShoppingListDraftBuilder implements Builder
     }
 
     /**
-     * <p>User-defined unique identifier for the ShoppingList.</p>
+     * <p>User-specific unique identifier for the shopping list.</p>
      *
      * @return null|string
      */

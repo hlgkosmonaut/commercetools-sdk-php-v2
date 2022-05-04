@@ -27,8 +27,6 @@ interface ReturnItem extends JsonObject
     public const FIELD_CREATED_AT = 'createdAt';
 
     /**
-     * <p>Platform-generated unique identifier of the ReturnItem.</p>
-     *
      * @return null|string
      */
     public function getId();

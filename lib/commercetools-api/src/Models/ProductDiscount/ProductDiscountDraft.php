@@ -31,7 +31,9 @@ interface ProductDiscountDraft extends JsonObject
     public function getName();
 
     /**
-     * <p>User-defined unique identifier for the ProductDiscount.</p>
+     * <p>User-specific unique identifier for a product discount.
+     * Must be unique across a project.
+     * The field can be reset using the Set Key UpdateAction</p>
      *
      * @return null|string
      */

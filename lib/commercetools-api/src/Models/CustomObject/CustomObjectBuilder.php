@@ -73,8 +73,6 @@ final class CustomObjectBuilder implements Builder
     private $value;
 
     /**
-     * <p>Platform-generated unique identifier of the CustomObject.</p>
-     *
      * @return null|string
      */
     public function getId()
@@ -137,8 +135,6 @@ final class CustomObjectBuilder implements Builder
     }
 
     /**
-     * <p>User-defined unique identifier of the CustomObject.</p>
-     *
      * @return null|string
      */
     public function getKey()

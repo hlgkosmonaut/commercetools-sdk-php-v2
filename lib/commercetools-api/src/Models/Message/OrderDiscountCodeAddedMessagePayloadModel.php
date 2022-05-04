@@ -61,8 +61,6 @@ final class OrderDiscountCodeAddedMessagePayloadModel extends JsonObjectModel im
     }
 
     /**
-     * <p><a href="/../api/types#reference">Reference</a> to a <a href="ctp:api:type:DiscountCode">DiscountCode</a>.</p>
-     *
      * @return null|DiscountCodeReference
      */
     public function getDiscountCode()

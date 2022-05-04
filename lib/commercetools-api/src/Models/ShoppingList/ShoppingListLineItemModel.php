@@ -176,8 +176,6 @@ final class ShoppingListLineItemModel extends JsonObjectModel implements Shoppin
     }
 
     /**
-     * <p>Platform-generated unique identifier of the ShoppingListLineItem.</p>
-     *
      * @return null|string
      */
     public function getId()
@@ -195,6 +193,8 @@ final class ShoppingListLineItemModel extends JsonObjectModel implements Shoppin
     }
 
     /**
+     * <p>JSON object where the keys are of <a href="https://en.wikipedia.org/wiki/IETF_language_tag">IETF language tag</a>, and the values are the corresponding strings used for that language.</p>
+     *
      * @return null|LocalizedString
      */
     public function getName()
@@ -230,6 +230,8 @@ final class ShoppingListLineItemModel extends JsonObjectModel implements Shoppin
     }
 
     /**
+     * <p>JSON object where the keys are of <a href="https://en.wikipedia.org/wiki/IETF_language_tag">IETF language tag</a>, and the values are the corresponding strings used for that language.</p>
+     *
      * @return null|LocalizedString
      */
     public function getProductSlug()
@@ -248,8 +250,6 @@ final class ShoppingListLineItemModel extends JsonObjectModel implements Shoppin
     }
 
     /**
-     * <p><a href="/../api/types#reference">Reference</a> to a <a href="ctp:api:type:ProductType">ProductType</a>.</p>
-     *
      * @return null|ProductTypeReference
      */
     public function getProductType()

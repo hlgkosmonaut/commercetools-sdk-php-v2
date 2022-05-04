@@ -102,7 +102,7 @@ final class InventoryEntryBuilder implements Builder
     private $custom;
 
     /**
-     * <p>Platform-generated unique identifier of the InventoryEntry.</p>
+     * <p>The unique ID of the inventory entry.</p>
      *
      * @return null|string
      */
@@ -156,7 +156,8 @@ final class InventoryEntryBuilder implements Builder
     }
 
     /**
-     * <p>User-defined unique identifier of the InventoryEntry.</p>
+     * <p>User-defined unique identifier for the InventoryEntry.
+     * Keys can only contain alphanumeric characters, underscores, and hyphens.</p>
      *
      * @return null|string
      */

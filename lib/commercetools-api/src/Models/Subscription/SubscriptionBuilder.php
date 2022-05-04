@@ -88,8 +88,6 @@ final class SubscriptionBuilder implements Builder
     private $status;
 
     /**
-     * <p>Platform-generated unique identifier of the Subscription.</p>
-     *
      * @return null|string
      */
     public function getId()
@@ -158,8 +156,6 @@ final class SubscriptionBuilder implements Builder
     }
 
     /**
-     * <p>User-defined unique identifier of the Subscription.</p>
-     *
      * @return null|string
      */
     public function getKey()

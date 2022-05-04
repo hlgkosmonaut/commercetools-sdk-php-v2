@@ -75,8 +75,6 @@ final class DeliveryModel extends JsonObjectModel implements Delivery
     }
 
     /**
-     * <p>Platform-generated unique identifier of the Delivery.</p>
-     *
      * @return null|string
      */
     public function getId()

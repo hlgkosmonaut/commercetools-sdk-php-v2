@@ -84,8 +84,6 @@ final class CartDiscountValueGiftLineItemDraftModel extends JsonObjectModel impl
     }
 
     /**
-     * <p><a href="/../api/types#resourceidentifier">ResourceIdentifier</a> to a <a href="ctp:api:type:Product">Product</a>.</p>
-     *
      * @return null|ProductResourceIdentifier
      */
     public function getProduct()

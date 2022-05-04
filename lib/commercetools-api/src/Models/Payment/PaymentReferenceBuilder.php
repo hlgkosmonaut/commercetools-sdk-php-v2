@@ -33,7 +33,7 @@ final class PaymentReferenceBuilder implements Builder
     private $obj;
 
     /**
-     * <p>Platform-generated unique identifier of the referenced <a href="ctp:api:type:Payment">Payment</a>.</p>
+     * <p>Unique ID of the referenced resource.</p>
      *
      * @return null|string
      */
@@ -43,8 +43,6 @@ final class PaymentReferenceBuilder implements Builder
     }
 
     /**
-     * <p>Contains the representation of the expanded Payment. Only present in responses to requests with <a href="/../api/general-concepts#reference-expansion">Reference Expansion</a> for Payments.</p>
-     *
      * @return null|Payment
      */
     public function getObj()

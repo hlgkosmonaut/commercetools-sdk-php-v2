@@ -133,7 +133,7 @@ final class CartDiscountBuilder implements Builder
     private $custom;
 
     /**
-     * <p>Platform-generated unique identifier of the CartDiscount.</p>
+     * <p>The unique ID of the cart discount.</p>
      *
      * @return null|string
      */
@@ -197,7 +197,8 @@ final class CartDiscountBuilder implements Builder
     }
 
     /**
-     * <p>User-defined unique identifier of the CartDiscount.</p>
+     * <p>User-specific unique identifier for a cart discount.
+     * Must be unique across a project.</p>
      *
      * @return null|string
      */

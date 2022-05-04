@@ -61,8 +61,6 @@ final class ProductSelectionProductRemovedMessagePayloadModel extends JsonObject
     }
 
     /**
-     * <p><a href="/../api/types#reference">Reference</a> to a <a href="ctp:api:type:Product">Product</a>.</p>
-     *
      * @return null|ProductReference
      */
     public function getProduct()

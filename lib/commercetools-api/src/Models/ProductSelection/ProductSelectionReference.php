@@ -17,14 +17,14 @@ interface ProductSelectionReference extends Reference
     public const FIELD_OBJ = 'obj';
 
     /**
-     * <p>Platform-generated unique identifier of the referenced <a href="ctp:api:type:ProductSelection">ProductSelection</a>.</p>
+     * <p>Unique ID of the Product Selection.</p>
      *
      * @return null|string
      */
     public function getId();
 
     /**
-     * <p>Contains the representation of the expanded Product Selection. Only present in responses to requests with <a href="/../api/general-concepts#reference-expansion">Reference Expansion</a> for Product Selections.</p>
+     * <p>Contains the representation of the expanded Product Selection. Only present in responses to requests with <a href="/../api/general-concepts#reference-expansion">Reference Expansion</a> for Product Selection.</p>
      *
      * @return null|ProductSelection
      */

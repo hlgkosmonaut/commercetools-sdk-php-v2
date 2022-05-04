@@ -34,7 +34,7 @@ interface ShippingMethod extends BaseResource
     public const FIELD_CUSTOM = 'custom';
 
     /**
-     * <p>Platform-generated unique identifier of the ShippingMethod.</p>
+     * <p>The unique ID of the shipping method.</p>
      *
      * @return null|string
      */
@@ -72,7 +72,7 @@ interface ShippingMethod extends BaseResource
     public function getCreatedBy();
 
     /**
-     * <p>User-defined unique identifier of the ShippingMethod.</p>
+     * <p>User-specific unique identifier for the shipping method</p>
      *
      * @return null|string
      */

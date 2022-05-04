@@ -51,6 +51,8 @@ final class CustomObjectReferenceModel extends JsonObjectModel implements Custom
     }
 
     /**
+     * <p>Type of referenced resource.</p>
+     *
      * @return null|string
      */
     public function getTypeId()
@@ -68,7 +70,7 @@ final class CustomObjectReferenceModel extends JsonObjectModel implements Custom
     }
 
     /**
-     * <p>Platform-generated unique identifier of the referenced <a href="ctp:api:type:CustomObject">CustomObject</a>.</p>
+     * <p>Unique ID of the referenced resource.</p>
      *
      * @return null|string
      */
@@ -87,8 +89,6 @@ final class CustomObjectReferenceModel extends JsonObjectModel implements Custom
     }
 
     /**
-     * <p>Contains the representation of the expanded CustomObject. Only present in responses to requests with <a href="/../api/general-concepts#reference-expansion">Reference Expansion</a> for CustomObjects.</p>
-     *
      * @return null|CustomObject
      */
     public function getObj()

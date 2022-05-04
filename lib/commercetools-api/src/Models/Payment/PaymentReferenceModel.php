@@ -51,6 +51,8 @@ final class PaymentReferenceModel extends JsonObjectModel implements PaymentRefe
     }
 
     /**
+     * <p>Type of referenced resource.</p>
+     *
      * @return null|string
      */
     public function getTypeId()
@@ -68,7 +70,7 @@ final class PaymentReferenceModel extends JsonObjectModel implements PaymentRefe
     }
 
     /**
-     * <p>Platform-generated unique identifier of the referenced <a href="ctp:api:type:Payment">Payment</a>.</p>
+     * <p>Unique ID of the referenced resource.</p>
      *
      * @return null|string
      */
@@ -87,8 +89,6 @@ final class PaymentReferenceModel extends JsonObjectModel implements PaymentRefe
     }
 
     /**
-     * <p>Contains the representation of the expanded Payment. Only present in responses to requests with <a href="/../api/general-concepts#reference-expansion">Reference Expansion</a> for Payments.</p>
-     *
      * @return null|Payment
      */
     public function getObj()

@@ -25,7 +25,7 @@ interface Extension extends BaseResource
     public const FIELD_TIMEOUT_IN_MS = 'timeoutInMs';
 
     /**
-     * <p>Platform-generated unique identifier of the Extension.</p>
+     * <p>Unique ID of the Extension.</p>
      *
      * @return null|string
      */
@@ -67,7 +67,8 @@ interface Extension extends BaseResource
     public function getCreatedBy();
 
     /**
-     * <p>User-defined unique identifier of the Extension.</p>
+     * <p>User-defined unique identifier for the Extension.
+     * Keys can only contain alphanumeric characters, underscores, and hyphens.</p>
      *
      * @return null|string
      */

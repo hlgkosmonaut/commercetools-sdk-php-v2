@@ -82,8 +82,6 @@ final class CustomerSigninBuilder implements Builder
     }
 
     /**
-     * <p><a href="/../api/types#resourceidentifier">ResourceIdentifier</a> to a <a href="ctp:api:type:Cart">Cart</a>.</p>
-     *
      * @return null|CartResourceIdentifier
      */
     public function getAnonymousCart()

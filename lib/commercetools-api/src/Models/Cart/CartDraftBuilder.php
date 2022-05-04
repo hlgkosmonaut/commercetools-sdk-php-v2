@@ -167,7 +167,7 @@ final class CartDraftBuilder implements Builder
     }
 
     /**
-     * <p>User-defined unique identifier for the Cart.</p>
+     * <p>User-specific unique identifier of the cart.</p>
      *
      * @return null|string
      */

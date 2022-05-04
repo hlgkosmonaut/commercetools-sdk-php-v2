@@ -56,7 +56,7 @@ final class OrderEditDraftBuilder implements Builder
     private $dryRun;
 
     /**
-     * <p>User-defined unique identifier for the OrderEdit.</p>
+     * <p>Unique identifier for this edit.</p>
      *
      * @return null|string
      */

@@ -19,8 +19,6 @@ interface MyCartSetShippingMethodAction extends MyCartUpdateAction
     public const FIELD_EXTERNAL_TAX_RATE = 'externalTaxRate';
 
     /**
-     * <p><a href="/../api/types#resourceidentifier">ResourceIdentifier</a> to a <a href="ctp:api:type:ShippingMethod">ShippingMethod</a>.</p>
-     *
      * @return null|ShippingMethodResourceIdentifier
      */
     public function getShippingMethod();

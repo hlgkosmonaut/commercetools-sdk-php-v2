@@ -70,8 +70,8 @@ interface PaymentDraft extends JsonObject
     public function getAmountPlanned();
 
     /**
-     * <p>Draft type that stores amounts in cent precision for the specified currency.
-     * For storing money values in fractions of the minor unit in a currency, use <a href="ctp:api:type:HighPrecisionMoneyDraft">HighPrecisionMoneyDraft</a> instead.</p>
+     * <p>Draft type that stores amounts in cent precision for the specified currency.</p>
+     * <p>For storing money values in fractions of the minor unit in a currency, use <a href="ctp:api:type:HighPrecisionMoneyDraft">HighPrecisionMoneyDraft</a> instead.</p>
      *
      * @return null|Money
      */
@@ -83,16 +83,16 @@ interface PaymentDraft extends JsonObject
     public function getAuthorizedUntil();
 
     /**
-     * <p>Draft type that stores amounts in cent precision for the specified currency.
-     * For storing money values in fractions of the minor unit in a currency, use <a href="ctp:api:type:HighPrecisionMoneyDraft">HighPrecisionMoneyDraft</a> instead.</p>
+     * <p>Draft type that stores amounts in cent precision for the specified currency.</p>
+     * <p>For storing money values in fractions of the minor unit in a currency, use <a href="ctp:api:type:HighPrecisionMoneyDraft">HighPrecisionMoneyDraft</a> instead.</p>
      *
      * @return null|Money
      */
     public function getAmountPaid();
 
     /**
-     * <p>Draft type that stores amounts in cent precision for the specified currency.
-     * For storing money values in fractions of the minor unit in a currency, use <a href="ctp:api:type:HighPrecisionMoneyDraft">HighPrecisionMoneyDraft</a> instead.</p>
+     * <p>Draft type that stores amounts in cent precision for the specified currency.</p>
+     * <p>For storing money values in fractions of the minor unit in a currency, use <a href="ctp:api:type:HighPrecisionMoneyDraft">HighPrecisionMoneyDraft</a> instead.</p>
      *
      * @return null|Money
      */
@@ -131,7 +131,8 @@ interface PaymentDraft extends JsonObject
     public function getCustom();
 
     /**
-     * <p>User-defined unique identifier for the Payment.</p>
+     * <p>User-specific unique identifier for the payment (max.
+     * 256 characters).</p>
      *
      * @return null|string
      */

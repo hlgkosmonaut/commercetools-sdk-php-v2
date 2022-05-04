@@ -75,7 +75,7 @@ final class CustomObjectDraftModel extends JsonObjectModel implements CustomObje
     }
 
     /**
-     * <p>User-defined unique identifier for the CustomObject.</p>
+     * <p>A user-defined key that is unique within the given container.</p>
      *
      * @return null|string
      */

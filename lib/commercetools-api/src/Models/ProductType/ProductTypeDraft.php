@@ -19,7 +19,9 @@ interface ProductTypeDraft extends JsonObject
     public const FIELD_ATTRIBUTES = 'attributes';
 
     /**
-     * <p>User-defined unique identifier for the ProductType.</p>
+     * <p>User-specific unique identifier for the product type (min.
+     * 2 and max.
+     * 256 characters).</p>
      *
      * @return null|string
      */
